@@ -1,0 +1,24 @@
+#area um circulo
+
+raio = 5 
+pi = 3.14  
+area = pi*raio*raio
+
+# area de rectangulo 
+base = 2 
+altura = 3 
+area = base*altura 
+
+#area de um triangulo
+ 
+base = 4 
+altura = 5 
+area = base*altura/2
+
+def calcular_area(figura,parametro1,parametro2):
+    if figura=='rectangulo':
+        return parametro1*parametro2
+figura = input("escreva aqui qual a figura")
+
+
+
